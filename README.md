@@ -8,7 +8,15 @@
 Använd följande kommando för att klona projektet till din lokala maskin:
 
 ```bash
-git clone <URL till projektet>
+git clone https://github.com/Mual5746/maxAi-Innovation-.git
+
+```
+### Gå in till Projekten 
+
+Navigera till projektets rotkatalog och kör följande kommando för att installera alla nödvändiga npm-paket:
+```bash
+cd maxAi-Innovation
+
 ```
 
 ### Installera npm-paket
@@ -46,16 +54,5 @@ git add .
 git commit -m "Beskrivning av dina ändringar"
 git push origin <namn på den aktuella grenen>
 ```
-```
 
-Detta kommer att visa upp instruktionerna i en kodblocksstil på din hemsida. Du kan kopiera och klistra in denna kod i din Readme.md-fil för din React-hemsida.
-Detta kommer att visa upp instruktionerna i en kodblocksstil på din hemsida. Du kan kopiera och klistra in denna kod i din Readme.md-fil för din React-hemsida.
 
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

@@ -1,0 +1,21 @@
+.cases {
+    margin: 80px auto; 
+    width: 90%;
+    display: flex;
+    align-item: center;
+    justify-content: space-between;
+}
+
+.case img {
+    width: 400px;
+    border-radius: 10px;
+    display: block; 
+}
+
+.cese {
+    flex-basis: 31%;
+}
+
+.case:hover {
+    transform: scale(1.1); 
+}

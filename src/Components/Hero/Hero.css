@@ -1,0 +1,18 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(117,126,156,0.41222426470588236) 2%, rgba(40,45,46,0.72875087535014) 96%), url('../../assets/hero1.gif') no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-text {
+    text-align: center;
+    max-width: 800px; 
+}

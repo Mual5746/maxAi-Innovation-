@@ -1,0 +1,26 @@
+.about {
+    margin: 100px auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: spcae-between; 
+    width: 90%;
+    min-height: 100vh;
+}
+
+.about-left {
+    flex-basis: 40%;
+}
+
+.about-right {
+    flex-basis: 56%;
+}
+
+.about-image {
+    width: 350px;
+    border-radius: 20px;
+
+}
+.about-image:hover {
+    transform: scale(1.1); 
+
+}

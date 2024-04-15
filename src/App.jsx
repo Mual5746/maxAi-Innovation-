@@ -13,23 +13,22 @@ function App() {
 
   return (
     <div>
-        <Navbar/>
-        <Hero/>
-        <div className="container">
-          <Title subTitle='Fullstack webbutvecklare' title='Denna kursen består 22 lektioner' />
-          <Case/>
-          <Title subTitle='' title='Om Oss' />
-          <About/>
-          <Title subTitle='Fullstack Webbutvecklare' title='lektionerna' />
-          <Lessons/>
-          <Title subTitle='Recension' title='Vad studenterna tycker om kurserna' />
-          <Review/>
-          <Title subTitle='Kontakta Oss' title='' />
-          <Contact/>
-          <Footer/>
-        </div>
-        
-     
+      <Navbar />
+      <Hero />
+      <div className="container">
+        <Title subTitle='Fullstack webbutvecklare' title='Denna kursen består 22 lektioner' />
+        <Case />
+        <Title subTitle='' title='Om Oss' />
+        <About />
+        <Title subTitle='Fullstack Webbutvecklare' title='Lektionerna' />
+        <Lessons />
+        <Title subTitle='Recension' title='Vad studenterna tycker om kurserna' />
+        <Review />
+        <Title subTitle='Kontakta Oss' title='' />
+        <Contact />
+        <Footer />
+      </div>
+
     </div>
   )
 }

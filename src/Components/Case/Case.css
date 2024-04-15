@@ -1,15 +1,16 @@
 .cases {
-    margin: 80px auto; 
+    margin: 80px auto;
     width: 90%;
     display: flex;
-    align-item: center;
+    align-items: center;
     justify-content: space-between;
+    min-height: 75vh;
 }
 
 .case img {
     width: 400px;
     border-radius: 10px;
-    display: block; 
+    display: block;
 }
 
 .cese {
@@ -17,5 +18,20 @@
 }
 
 .case:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
+}
+
+/* ----- Media query -----*/
+
+@media (max-width: 800px) {
+    .cases{
+        flex-direction: column;
+    }
+    .case{
+        flex-basis: 100%;
+        padding: 20px;
+    }
+    .case img{
+        width: 100%;
+    }
 }

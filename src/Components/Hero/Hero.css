@@ -1,18 +1,47 @@
 .hero {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg, rgba(117,126,156,0.41222426470588236) 2%, rgba(40,45,46,0.72875087535014) 96%), url('../../assets/hero1.gif') no-repeat;
+    background: linear-gradient(90deg, #6f7ca869 2%, #1b1755ba)96%, url('../../assets/hero1.gif') no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     display: flex;
-    
-
     align-items: center;
     justify-content: center;
-
 }
 
 .hero-text {
     text-align: center;
-    max-width: 800px; 
+    max-width: 800px;
+}
+
+.hero-text h1{
+    padding: 5px;
+    font-size: 45px;
+}
+
+.hero-text p{
+    padding: 15px;
+    font-size: 25px;
+}
+
+/* ----- Media query -----*/
+
+@media (max-width: 850px) {
+    .hero-text h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p{
+        font-size: 15px;
+        margin: 15px auto 30px;
+    }
 }

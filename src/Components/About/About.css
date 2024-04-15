@@ -1,10 +1,10 @@
 .about {
-    margin: 100px auto;
-    display: flex; 
-    align-items: center; 
-    justify-content: spcae-between; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 90%;
-    min-height: 100vh;
+    min-height: 75vh;
 }
 
 .about-left {
@@ -20,7 +20,28 @@
     border-radius: 20px;
 
 }
-.about-image:hover {
-    transform: scale(1.1); 
 
+.about-image:hover {
+    transform: scale(1.1);
+
+}
+
+/* ----- Media query -----*/
+
+@media (max-width: 800px) {
+    .about{
+        flex-direction: column;
+    }
+    .about-left{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .about-right{
+        flex-basis: 100%;
+        padding-bottom: 30px;
+    }
+    .about-image{
+        width: 100%;
+    }
 }

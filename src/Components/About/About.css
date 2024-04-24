@@ -12,6 +12,7 @@
 }
 
 .about-right {
+    font-size: 20px;
     flex-basis: 56%;
 }
 
@@ -38,6 +39,7 @@
         order: 2;
     }
     .about-right{
+        font-size: 16px;
         flex-basis: 100%;
         padding-bottom: 30px;
     }

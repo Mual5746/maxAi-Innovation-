@@ -34,18 +34,19 @@ a {
     cursor: pointer;
     border: 0;
     outline: 0;
+    text-decoration: underline;
 }
 
 .sign-upp {
-    background-color: rgb(207, 43, 10);
+    color: aliceblue;
+    background-color: rgb(166, 5, 43);
     font-weight: 700;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .sign-in {
-    color: black;
+    color: aliceblue;
     font-weight: 700;
-    text-decoration: underline;
 }
 
 /* ------- Media query -------- */

@@ -12,7 +12,7 @@ const Review = () => {
 
     const slideForward = () => {
         if (tx > -50) {
-            tx -= 50;
+            tx -= 25;
         }
         slider.current.style.transform = `translateX(${tx}%)`
     }
@@ -24,7 +24,6 @@ const Review = () => {
     }
     return (
         <div className='review'>
-
             <img src={Backbtn} alt="" className='back-btn' onClick={slideBackward} />
             <img src={Nextbtn} alt="" className='next-btn' onClick={slideForward} />
             <div className="slider">

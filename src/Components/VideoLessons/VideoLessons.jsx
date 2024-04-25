@@ -3,12 +3,9 @@ import YouTube from 'react-youtube';
 
 function VideoLessons({ videoId }) {
   const opts = {
-    height: '200',
-    width: '315',
+    height: 'auto',
+    width: '100%',
 
-    playerVars: {
-      autoplay: 1,  // Spela automatiskt videon när Videon laddas
-    },
   };
 
   return <div className="videolessons">

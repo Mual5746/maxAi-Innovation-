@@ -4,7 +4,8 @@ import './Case.css'
 const Case = () => {
   return (
     <div className="cases" >
-      <div className="case">
+      <div className='casess'>
+        <div className="case">
         <img src={case2} alt="" />
       </div>      
       <div className="case">
@@ -12,7 +13,8 @@ const Case = () => {
       </div>
       <div className="case">
         <img src={case2} alt="" />
-      </div>
+      </div></div>
+      
     </div>
   )
 }

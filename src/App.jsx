@@ -17,7 +17,7 @@ const App = () =>{
       <div className="container">
         <Title subTitle='Fullstack webbutvecklare' title='Denna kursen består 22 lektioner' />
         <Case />
-        <Title subTitle='' title='Om Oss' />
+        <Title subTitle='Fullstack webbutvecklare' title='Om Oss' />
         <About />
         <Title subTitle='Fullstack Webbutvecklare' title='Lektionerna' />
         <VideoLessons />

@@ -1,10 +1,15 @@
 .about {
-    margin: 0 auto;
+    min-height: 75vh;
+}
+.aboutt {
+    margin: 60px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
-    min-height: 75vh;
+    width: 95%;
+    padding: 50px 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
 }
 
 .about-left {
@@ -30,7 +35,7 @@
 /* ----- Media query -----*/
 
 @media (max-width: 800px) {
-    .about{
+    .aboutt{
         flex-direction: column;
     }
     .about-left{

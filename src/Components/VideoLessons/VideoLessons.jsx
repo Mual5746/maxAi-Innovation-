@@ -9,10 +9,13 @@ function VideoLessons({ videoId }) {
   };
 
   return <div className="videolessons">
+    <div className="videolessonss">
   <YouTube videoId={"_rE4QTYEwaI"} opts={opts} className="YouTube" />
   <YouTube videoId={"metAjn9QezE"} opts={opts} className="YouTube" />
   <YouTube videoId={"CJIYIrxyYkU"} opts={opts} className="YouTube" />
-  <YouTube videoId={"f4RecEffuJE"} opts={opts} className="YouTube" />
+  <YouTube videoId={"f4RecEffuJE"} opts={opts} className="YouTube" /> 
+    </div>
+  
 </div>
 
 }

@@ -4,7 +4,7 @@ import Nextbtn from '../../assets/Nextbtn.png'
 import user1 from '../../assets/profile.png'
 import { useRef } from 'react'
 
-const Review = () => {
+const Revieww = () => {
 
     const slider = useRef();
     //start position för slider i x riktning 
@@ -24,6 +24,7 @@ const Review = () => {
     }
     return (
         <div className='review'>
+            <div className='revieww'>
             <img src={Backbtn} alt="" className='back-btn' onClick={slideBackward} />
             <img src={Nextbtn} alt="" className='next-btn' onClick={slideForward} />
             <div className="slider">
@@ -100,8 +101,9 @@ const Review = () => {
                     </li>
                 </ul>
             </div>
+            </div>
         </div>
     )
 }
 
-export default Review
+export default Revieww

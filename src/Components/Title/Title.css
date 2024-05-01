@@ -3,7 +3,7 @@
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
-    margin: 50px 0 30px;
+    margin: 40px 0 30px;
     color: blue;
     font-family: serif;
 }
@@ -17,6 +17,6 @@
         font-size: 15px;
     }
     .title p {
-        font-size: 15px;
+        font-size: 18px;
      }
 }

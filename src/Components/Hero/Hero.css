@@ -17,12 +17,12 @@
 }
 
 .hero-text h1{
-    padding: 5px;
+    padding: 10px;
     font-size: 45px;
 }
 
 .hero-text p{
-    padding: 15px;
+    padding: 25px;
     font-size: 25px;
 }
 
@@ -35,7 +35,7 @@
         margin: auto;
     }
     .hero-text p{
-        font-size: 20px;
+        font-size: 22px;
         margin: 15px auto 30px;
     }
 }

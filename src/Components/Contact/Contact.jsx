@@ -28,9 +28,9 @@ const Contact = () => {
   };
   return (
     <div className='contact' >
-      <div className="contact-col">
-        <h3>Skicka ett meddelande</h3>
-        <p> ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos reiciendis cumque fugit, placeat saepe blanditiis, similique veniam in debitis architecto quis suscipit non. Optio molestiae, fuga qui possimus provident iusto.</p>
+      <div className='contactt'>
+       <div className="contact-col">
+        <p> Har du frågor om våra kurser eller hur du kan komma igång? Tveka inte att kontakta oss – vi är här för att hjälpa dig på din inlärningsresa.</p>
         <ul>
           <li>email@gmail.com</li>
           <li>+46000000</li>
@@ -48,8 +48,8 @@ const Contact = () => {
           <button type='submit' className='btn btn-dark'>SKICKA</button>
         </form>
         <span>{result}</span>
+       </div>
       </div>
-
     </div>
   )
 }

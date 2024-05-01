@@ -1,11 +1,16 @@
 .cases {
-    margin: 80px auto;
+    min-height: 75vh;
+}
+.casess {
+    margin: 70px auto;
     width: 95%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    min-height: 75vh;
+    padding: 75px 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
 }
 
 .case img {
@@ -25,7 +30,7 @@
 /* ----- Media query -----*/
 
 @media (max-width: 1000px) {
-    .cases{
+    .casess{
         flex-direction: column;
     }
     .case{

@@ -4,10 +4,10 @@ import Navbar from './Components/Navbar/Navbar'
 import Case from './Components/Case/Case'
 import Title from './Components/Title/Title'
 import About from './Components/About/About'
-import VideoLessons from './Components/VideoLessons/VideoLessons'
 import Review from './Components/Review/Review'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
+import Curse from './Components/Curse/Curse'
 
 const App = () =>{
   return (
@@ -15,15 +15,15 @@ const App = () =>{
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subTitle='Fullstack webbutvecklare' title='Denna kursen består 22 lektioner' />
+        <Title subTitle='Fullstack webbutvecklare' />
         <Case />
-        <Title subTitle='Fullstack webbutvecklare' title='Om Oss' />
+        <Title subTitle='Om Oss'  />
         <About />
-        <Title subTitle='Fullstack Webbutvecklare' title='Lektionerna' />
-        <VideoLessons />
-        <Title subTitle='Recension' title='Vad studenterna tycker om kurserna' />
+        <Title subTitle='Kurser som vi erbjuder' />
+        <Curse/> 
+        <Title subTitle='Recension'  />
         <Review />
-        <Title subTitle='Kontakta Oss' title='' />
+        <Title subTitle='Kontakta Oss'/>
         <Contact />
         <Footer />
       </div>

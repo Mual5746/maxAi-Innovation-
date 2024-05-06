@@ -26,7 +26,7 @@ nav ul li {
 }
 
 .dark-nav {
-    background: #0D5765;
+    background: linear-gradient(90deg in oklab, #5ea7f0, #053d7d);
     transition: 0.5s;
 }
 

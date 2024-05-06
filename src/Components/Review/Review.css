@@ -1,13 +1,9 @@
 .review {
-    min-height: 75vh;
-}
-.revieww {
-    margin: 70px auto;
-    max-width: 95%;
+    min-height: 65vh;
+    margin: 50px auto;
+    max-width: 85%;
     position: relative;
-    padding: 40px 40px;
-    background-color: antiquewhite;
-    border-radius: 10px;
+    padding: 40px;
 }
 
 .next-btn, .back-btn {
@@ -16,7 +12,7 @@
     right: 0;
     transform: translateY(-50%);
     padding: 8px;
-    width: 70px;
+    width: 60px;
     cursor: pointer;
 
 }
@@ -74,7 +70,6 @@
 @media (max-width: 800px) {
     .revieww{
      display: flex;
-     padding: 0 40px;
      min-height: 25vh;
     }
     .next-btn, .back-btn {
@@ -84,10 +79,10 @@
         width: 55px;
     }
     .slide{
-        padding: 10px;
+        padding: 5px;
     }
     .revieww ul li{
-        padding: 10px;
+        padding: 5px;
     }
  
     .slide img{

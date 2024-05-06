@@ -1,15 +1,11 @@
 .about {
-    min-height: 70vh;
-}
-.aboutt {
+    min-height: 75vh;
     margin: 70px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 95%;
-    padding: 50px 20px;
-    background-color: antiquewhite;
-    border-radius: 10px;
+    width: 85%;
+    
 }
 
 .about-left {
@@ -19,8 +15,8 @@
 
 .about-right {
     font-size: 20px;
-    flex-basis: 75%;
-    padding: 20px;
+    flex-basis: 65%;
+    padding: 10px;
 }
 
 .about-image {
@@ -31,14 +27,14 @@
 
 .about-image:hover {
     transform: scale(1.1);
-
 }
 
 /* ----- Media query -----*/
 
 @media (max-width: 800px) {
-    .aboutt{
+    .about{
         flex-direction: column;
+        padding: 10px;
     }
     .about-left{
         flex-basis: 100%;

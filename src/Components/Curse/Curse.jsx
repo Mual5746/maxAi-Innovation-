@@ -14,7 +14,7 @@ import './Curse.css'
 
 
 const Curse= () => (
-  <CardGroup style={{ marginLeft: '10%' }}>
+  <CardGroup className='hover' style={{ marginLeft: '10%' }}>
     <Card className="hover-card">
       <Image src='/src/assets/curse/Hack.png' wrapped ui={false} />
       <CardContent>

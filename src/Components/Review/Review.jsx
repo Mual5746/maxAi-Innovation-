@@ -24,7 +24,6 @@ const Revieww = () => {
     }
     return (
         <div className='review'>
-            <div className='revieww'>
             <img src={Backbtn} alt="" className='back-btn' onClick={slideBackward} />
             <img src={Nextbtn} alt="" className='next-btn' onClick={slideForward} />
             <div className="slider">
@@ -100,7 +99,6 @@ const Revieww = () => {
                         </div>
                     </li>
                 </ul>
-            </div>
             </div>
         </div>
     )

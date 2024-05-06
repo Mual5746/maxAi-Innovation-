@@ -1,15 +1,11 @@
 .cases {
-    min-height: 75vh;
-}
-.casess {
+    min-height: 70vh;
     margin: 70px auto;
-    width: 95%;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 75px 20px;
-    background-color: antiquewhite;
     border-radius: 10px;
 }
 

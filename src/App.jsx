@@ -20,7 +20,7 @@ const App = () =>{
         <Title subTitle='Om Oss'  />
         <About />
         <Title subTitle='Kurser som vi erbjuder' />
-        <Curse/> 
+        <Curse /> 
         <Title subTitle='Recension'  />
         <Review />
         <Title subTitle='Kontakta Oss'/>

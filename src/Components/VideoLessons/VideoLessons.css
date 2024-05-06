@@ -1,15 +1,11 @@
 .videolessons {
-  min-height: 75vh;
-}
-.videolessonss {
-    margin: 60px auto;
-    width: 95%;
+    margin: 70px auto;
+   
+    min-height: 75vh;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 20px;
-    background-color: antiquewhite;
     border-radius: 10px;
 }
 
@@ -21,9 +17,10 @@
 /* ------ Media query ----- */
 
 @media (max-width: 1500px) {
-.videolessonss{
+.videolessons{
     min-height: 25vh;
     flex-wrap: wrap;
+    width: 100%;
 }
 .YouTube{
     margin-bottom: 20px;
@@ -31,7 +28,7 @@
 }
 
 @media (max-width: 1000px) {
-.videolessonss{
+.videolessons{
     flex-direction: column;
 }
 }

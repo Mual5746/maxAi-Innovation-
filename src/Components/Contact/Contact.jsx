@@ -28,7 +28,6 @@ const Contact = () => {
   };
   return (
     <div className='contact' >
-      <div className='contactt'>
        <div className="contact-col">
         <p> Har du frågor om våra kurser eller hur du kan komma igång? Tveka inte att kontakta oss – vi är här för att hjälpa dig på din inlärningsresa.</p>
         <ul>
@@ -49,7 +48,6 @@ const Contact = () => {
         </form>
         <span>{result}</span>
        </div>
-      </div>
     </div>
   )
 }

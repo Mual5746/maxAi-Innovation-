@@ -3,7 +3,6 @@ import profile from '../../assets/profile.png'
 const About = () => {
   return (
     <div className='about'>
-      <div className='aboutt'>
         <div className='about-left' >
         <img className='about-image' src={profile} alt="" />
       </div>
@@ -16,8 +15,7 @@ const About = () => {
 
           Vår passion är att ge stöd och vägledning för att hjälpa dig att nå dina karriärmål. Prenumerera på vår community för att ta del av alla tips och tricks som kan hjälpa dig att starta och utveckla din karriär redan under 2024.
         </p>
-      </div>
-</div>
+    </div>
       
     </div>
   )

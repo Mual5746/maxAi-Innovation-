@@ -1,15 +1,9 @@
 .contact {
-    min-height: 65vh;
-}
-.contactt {
     margin: 50px auto;
-    max-width: 95%;
+    max-width: 85%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: antiquewhite;
-    border-radius: 10px;
+    justify-content: space-between
 }
 
 .contact-col {
@@ -57,7 +51,7 @@
 /* ------ Media query ----- */
 
 @media (max-width: 800px) {
-.contactt{
+.contact{
     display: block;
 }
 .contact-col{

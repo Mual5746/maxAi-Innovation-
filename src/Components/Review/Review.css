@@ -2,17 +2,17 @@
     min-height: 75vh;
 }
 .revieww {
-    margin: 60px auto;
+    margin: 70px auto;
     max-width: 95%;
     position: relative;
-    padding: 30px 40px;
+    padding: 40px 40px;
     background-color: antiquewhite;
     border-radius: 10px;
 }
 
 .next-btn, .back-btn {
     position: absolute;
-    top: 40%;
+    top: 50%;
     right: 0;
     transform: translateY(-50%);
     padding: 8px;
@@ -32,7 +32,7 @@
 
 .slider ul {
     display: flex;
-    width: 175%;
+    width: 200%;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -77,9 +77,14 @@
      padding: 0 40px;
      min-height: 25vh;
     }
-    .next-btn, .back-btn{
-        padding: 10px;
+    .next-btn, .back-btn {
+        top: 50%;
+        right: 0;
+        padding: 12px;
         width: 55px;
+    }
+    .slide{
+        padding: 10px;
     }
     .revieww ul li{
         padding: 10px;
@@ -92,13 +97,24 @@
 }
 @media (max-width: 600px) {
     .user-info{
+        display: block;
+        margin-bottom: 5px;
         font-size: 15px;
+        padding: 10px 5px;
+    }
+    .slide{
+        padding: 6px;
+    }
+    .revieww ul li{
+        padding: 3px;
+    }
+    .slide img{
+        width: 55px;
     }
     .user-info h3{
-        font-size: 18px;
+        font-size: 15px;
     }
-    .slider p{
-        font-size: 14px;
+    .slide p{
+        font-size: 13px;
     }
-
 }

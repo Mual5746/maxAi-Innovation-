@@ -1,6 +1,7 @@
 .contact {
-    margin: 50px auto;
-    max-width: 85%;
+    min-height: 65vh;
+    margin: 30px auto;
+    max-width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between
@@ -51,10 +52,11 @@
 /* ------ Media query ----- */
 
 @media (max-width: 800px) {
-.contact{
+.contact {
     display: block;
-}
+    margin: 10px auto;
+    }
 .contact-col{
-    padding: 20px;
+    padding: 10px;
 }
 }

@@ -11,6 +11,7 @@
 
 @media (max-width: 800px) {
     .title p {
+        margin: 65px auto;
         font-size: 18px;
      }
 }

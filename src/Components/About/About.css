@@ -34,7 +34,7 @@
 @media (max-width: 800px) {
     .about{
         flex-direction: column;
-        padding: 10px;
+        margin: 20px auto;
     }
     .about-left{
         flex-basis: 100%;

@@ -10,7 +10,7 @@
 .contact-col {
     flex-basis: 48%;
     color: #676767;
-
+    font-size: 15px;
 }
 
 .contact-col h3 {
@@ -24,12 +24,14 @@
     max-width: 450px;
     list-style: 1.3;
     color: #000F38;
+    font-size: 18px;
 }
 
 .contact-col ul li {
     display: flex;
     align-items: center;
     margin: 20px 0;
+    font-size: 18px;
 }
 
 .contact form input,
@@ -54,7 +56,7 @@
 @media (max-width: 800px) {
 .contact {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     }
 .contact-col{
     padding: 10px;

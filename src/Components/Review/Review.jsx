@@ -4,7 +4,7 @@ import Nextbtn from '../../assets/Nextbtn.png'
 import user1 from '../../assets/profile.png'
 import { useRef } from 'react'
 
-const Revieww = () => {
+const Review = () => {
 
     const slider = useRef();
     //start position för slider i x riktning 
@@ -104,4 +104,4 @@ const Revieww = () => {
     )
 }
 
-export default Revieww
+export default Review

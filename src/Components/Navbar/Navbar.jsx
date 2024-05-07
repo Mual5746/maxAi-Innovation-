@@ -25,7 +25,7 @@ const Navbar = () => {
         <li> <Link to='hero' smooth={true} offset={0} duration={500} > Hem</Link></li>
         <li><Link to='cases' smooth={true} offset={-250} duration={500} > Webbutvecklare</Link></li>
         <li><Link to='about' smooth={true} offset={-240} duration={500} > Om Oss</Link></li>
-        <li><Link to='curse' smooth={true} offset={-260} duration={500} > Kurser</Link></li>
+        <li><Link to='hover' smooth={true} offset={-260} duration={500} > Kurser</Link></li>
         <li><Link to='review' smooth={true} offset={-250} duration={500} > Recentioner</Link></li>
         <li><Link to='contact' smooth={true} offset={50} duration={500} > Kontakt </Link></li>
         <li className='sign-in'>Logga in</li>

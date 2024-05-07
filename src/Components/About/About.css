@@ -1,16 +1,16 @@
 .about {
     min-height: 75vh;
-    margin: 70px auto;
+    margin: 50px auto;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 85%;
-    
+    border-radius: 10px;
 }
 
 .about-left {
     flex-basis: 40%;
-    padding: 10px;
+    padding: 30px;
 }
 
 .about-right {

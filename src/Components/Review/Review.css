@@ -1,7 +1,7 @@
 .review {
-    min-height: 65vh;
-    margin: 50px auto;
-    max-width: 85%;
+    min-height: 50vh;
+    margin: 120px auto;
+    max-width: 90%;
     position: relative;
     padding: 40px;
 }
@@ -68,20 +68,20 @@
 /* ------ Media query ----- */
 
 @media (max-width: 800px) {
-    .revieww{
+    .review{
      display: flex;
-     min-height: 25vh;
+     margin: 0 auto;
     }
     .next-btn, .back-btn {
         top: 50%;
         right: 0;
-        padding: 12px;
+        padding: 15px;
         width: 55px;
     }
     .slide{
         padding: 5px;
     }
-    .revieww ul li{
+    .review ul li{
         padding: 5px;
     }
  
@@ -95,12 +95,12 @@
         display: block;
         margin-bottom: 5px;
         font-size: 15px;
-        padding: 10px 5px;
+        padding: 5px 2px;
     }
     .slide{
-        padding: 6px;
+        padding: 3px;
     }
-    .revieww ul li{
+    .review ul li{
         padding: 3px;
     }
     .slide img{

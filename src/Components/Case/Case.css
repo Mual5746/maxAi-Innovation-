@@ -1,7 +1,7 @@
 .cases {
-    min-height: 70vh;
-    margin: 70px auto;
-    width: 85%;
+    min-height: 50vh;
+    margin: 120px auto;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -10,9 +10,9 @@
 }
 
 .case img {
+    display: block;
     width: 400px;
     border-radius: 10px;
-    display: block;
 }
 
 .cese {
@@ -26,8 +26,9 @@
 /* ----- Media query -----*/
 
 @media (max-width: 1000px) {
-    .casess{
+    .cases{
         flex-direction: column;
+        margin: 25px auto;
     }
     .case{
         flex-basis: 100%;

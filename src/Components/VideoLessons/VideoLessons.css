@@ -1,35 +1,35 @@
 .videolessons {
-    margin: 70px auto;
-   
-    min-height: 75vh;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px;
+  margin: 70px auto;
+
+  min-height: 75vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
 }
 
-  .YouTube {
-    border-radius: 15px;
-    overflow: hidden;
-  }
+.YouTube {
+  border-radius: 15px;
+  overflow: hidden;
+}
 
 /* ------ Media query ----- */
 
 @media (max-width: 1500px) {
-.videolessons{
+  .videolessons {
     min-height: 25vh;
     flex-wrap: wrap;
     width: 100%;
-}
-.YouTube{
+  }
+
+  .YouTube {
     margin-bottom: 20px;
-}
+  }
 }
 
 @media (max-width: 1000px) {
-.videolessons{
+  .videolessons {
     flex-direction: column;
+  }
 }
-}
-

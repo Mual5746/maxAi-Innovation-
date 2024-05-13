@@ -31,26 +31,28 @@ nav ul li {
 }
 
 
-.menu-icon{
-display: none;
+.menu-icon {
+    display: none;
 }
 
 /* ------ Media query ----- */
 
 @media (max-width: 1000px) {
-    .logo{
+    .logo {
         width: 140px;
     }
 
-    nav ul li{
+    nav ul li {
         margin: 10px 15px;
     }
 }
+
 @media (max-width: 850px) {
-    nav{
+    nav {
         padding: 15px 0;
     }
-    nav ul{
+
+    nav ul {
         position: fixed;
         top: 0;
         right: 0;
@@ -61,16 +63,19 @@ display: none;
         padding-top: 50px;
         transition: 0.5s;
     }
-    nav ul li{
+
+    nav ul li {
         display: block;
         margin: 25px 50px;
     }
-    .menu-icon{
+
+    .menu-icon {
         display: block;
         width: 30px;
         cursor: pointer;
     }
-    .hide-mobile-menu{
+
+    .hide-mobile-menu {
         right: -200px;
     }
 }

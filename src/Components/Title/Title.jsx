@@ -1,10 +1,10 @@
 import './Title.css'
 // eslint-disable-next-line react/prop-types
-const Title = ({subTitle }) => {
+const Title = ({ subTitle }) => {
   return (
     <div className='title'>
-        <p>{subTitle}</p>
-     
+      <p>{subTitle}</p>
+
     </div>
   )
 }

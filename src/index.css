@@ -54,12 +54,12 @@ a {
 /* ------- Media query -------- */
 
 @media (max-width: 1200px) {
-    .container{
+    .container {
         padding-left: 5%;
         padding-right: 5%;
     }
 
-    .btn{
+    .btn {
         padding: 10px 18px;
-    }  
+    }
 }

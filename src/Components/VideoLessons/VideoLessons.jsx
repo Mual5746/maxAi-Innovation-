@@ -9,11 +9,11 @@ function VideoLessons({ videoId }) {
   };
 
   return <div className="videolessons">
-  <YouTube videoId={"_rE4QTYEwaI"} opts={opts} className="YouTube" />
-  <YouTube videoId={"metAjn9QezE"} opts={opts} className="YouTube" />
-  <YouTube videoId={"CJIYIrxyYkU"} opts={opts} className="YouTube" />
-  <YouTube videoId={"f4RecEffuJE"} opts={opts} className="YouTube" />
-</div>
+    <YouTube videoId={"_rE4QTYEwaI"} opts={opts} className="YouTube" />
+    <YouTube videoId={"metAjn9QezE"} opts={opts} className="YouTube" />
+    <YouTube videoId={"CJIYIrxyYkU"} opts={opts} className="YouTube" />
+    <YouTube videoId={"f4RecEffuJE"} opts={opts} className="YouTube" />
+  </div>
 
 }
 

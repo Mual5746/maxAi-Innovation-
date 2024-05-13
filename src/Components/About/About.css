@@ -32,20 +32,23 @@
 /* ----- Media query -----*/
 
 @media (max-width: 800px) {
-    .about{
+    .about {
         flex-direction: column;
         margin: 20px auto;
     }
-    .about-left{
+
+    .about-left {
         flex-basis: 100%;
         margin: 20px;
         order: 2;
     }
-    .about-right{
+
+    .about-right {
         font-size: 18px;
         padding-bottom: 30px;
     }
-    .about-image{
+
+    .about-image {
         width: 100%;
     }
 }

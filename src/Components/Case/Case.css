@@ -26,15 +26,17 @@
 /* ----- Media query -----*/
 
 @media (max-width: 1000px) {
-    .cases{
+    .cases {
         flex-direction: column;
         margin: 25px auto;
     }
-    .case{
+
+    .case {
         flex-basis: 100%;
         padding: 20px;
     }
-    .case img{
+
+    .case img {
         width: 100%;
     }
 }

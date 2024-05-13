@@ -16,12 +16,12 @@
     max-width: 800px;
 }
 
-.hero-text h1{
+.hero-text h1 {
     padding: 10px;
     font-size: 45px;
 }
 
-.hero-text p{
+.hero-text p {
     padding: 25px;
     font-size: 25px;
 }
@@ -29,12 +29,13 @@
 /* ----- Media query -----*/
 
 @media (max-width: 850px) {
-    .hero-text h1{
+    .hero-text h1 {
         font-size: 35px;
         max-width: 400px;
         margin: auto;
     }
-    .hero-text p{
+
+    .hero-text p {
         font-size: 22px;
         margin: 15px auto 30px;
     }

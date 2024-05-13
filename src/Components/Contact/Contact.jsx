@@ -28,7 +28,7 @@ const Contact = () => {
   };
   return (
     <div className='contact' >
-       <div className="contact-col">
+      <div className="contact-col">
         <p> Har du frågor om våra kurser eller hur du kan komma igång? Tveka inte att kontakta oss – vi är här för att hjälpa dig på din inlärningsresa.</p>
         <ul>
           <li>email@gmail.com</li>
@@ -47,7 +47,7 @@ const Contact = () => {
           <button type='submit' className='btn btn-dark'>SKICKA</button>
         </form>
         <span>{result}</span>
-       </div>
+      </div>
     </div>
   )
 }

@@ -4,14 +4,15 @@
   width: 90%;
   display: block;
 }
-.hover-card:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-  }
 
-  @media (max-width: 800px) {
-    .hover {
-      flex-direction: column;
-      padding-right: 50px;
-    }
+.hover-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 800px) {
+  .hover {
+    flex-direction: column;
+    padding-right: 50px;
+  }
 }

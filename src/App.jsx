@@ -9,7 +9,7 @@ import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import Curse from './Components/Curse/Curse'
 
-const App = () =>{
+const App = () => {
   return (
     <div>
       <Navbar />
@@ -17,13 +17,13 @@ const App = () =>{
       <div className="container">
         <Title subTitle='Fullstack webbutvecklare' />
         <Case />
-        <Title subTitle='Om Oss'  />
+        <Title subTitle='Om Oss' />
         <About />
         <Title subTitle='Kurser som vi erbjuder' />
-        <Curse /> 
-        <Title subTitle='Recension'  />
+        <Curse />
+        <Title subTitle='Recension' />
         <Review />
-        <Title subTitle='Kontakta Oss'/>
+        <Title subTitle='Kontakta Oss' />
         <Contact />
         <Footer />
       </div>

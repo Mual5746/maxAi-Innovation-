@@ -4,15 +4,15 @@ import './Case.css'
 const Case = () => {
   return (
     <div className="cases" >
-        <div className="case">
+      <div className="case">
         <img src={case2} alt="" />
-      </div>      
+      </div>
       <div className="case">
         <img src={case1} alt="" />
       </div>
       <div className="case">
         <img src={case2} alt="" />
-      </div> 
+      </div>
     </div>
   )
 }

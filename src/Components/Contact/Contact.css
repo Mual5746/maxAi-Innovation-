@@ -47,18 +47,20 @@
     resize: none;
 }
 
-.contact-col span{
+.contact-col span {
     display: block;
     margin: 20px 0;
 }
+
 /* ------ Media query ----- */
 
 @media (max-width: 800px) {
-.contact {
-    display: block;
-    margin: 20px auto;
+    .contact {
+        display: block;
+        margin: 20px auto;
     }
-.contact-col{
-    padding: 10px;
-}
+
+    .contact-col {
+        padding: 10px;
+    }
 }

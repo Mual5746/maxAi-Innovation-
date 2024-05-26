@@ -13,6 +13,24 @@ import './Curse.css'
 import { Link } from "react-router-dom";
 
 import HackImage from '../../assets/curse/Hack.png';
+import FullStack from '../../assets/curse/fullstack.png';
+import ItJob from '../../assets/curse/ItJob.png';
+import ItCarear from '../../assets/curse/ItCarear.png';
+import Datorer from '../../assets/curse/datorer.png';
+import Python1 from '../../assets/curse/python.png';
+import Csharp1 from '../../assets/curse/csharp.png';
+import Matematik5 from '../../assets/curse/matte.png';
+import HackImage from '../../assets/curse/Hack.png';
+import HackImage from '../../assets/curse/Hack.png';
+import HackImage from '../../assets/curse/Hack.png';
+import HackImage from '../../assets/curse/Hack.png';
+import HackImage from '../../assets/curse/Hack.png';
+import HackImage from '../../assets/curse/Hack.png';
+import HackImage from '../../assets/curse/Hack.png';
+import HackImage from '../../assets/curse/Hack.png';
+import HackImage from '../../assets/curse/Hack.png';
+import HackImage from '../../assets/curse/Hack.png';
+
 
 const Curse = () => (
   <CardGroup className='hover' style={{ marginLeft: '10%' }}>
@@ -49,7 +67,7 @@ const Curse = () => (
       </CardContent>
     </Card>
     <Card className="hover-card">
-      <Image src='/src/assets/curse/fullstack.png' wrapped ui={false} />
+      <Image src={FullStack} wrapped ui={false} />
       <CardContent>
         <CardHeader>Fullstack webbutvecklare</CardHeader>
         <CardMeta>
@@ -81,7 +99,7 @@ const Curse = () => (
       </CardContent>
     </Card>
     <Card className="hover-card">
-      <Image src='/src/assets/curse/ItJob.png' wrapped ui={false} />
+      <Image src={ItJob} wrapped ui={false} />
       <CardContent>
         <CardHeader>Starta din karriär inom IT</CardHeader>
         <CardMeta>
@@ -114,7 +132,7 @@ const Curse = () => (
       </CardContent>
     </Card>
     <Card className="hover-card">
-      <Image src='/src/assets/curse/ItCarear.png' wrapped ui={false} />
+      <Image src={ItCarear} wrapped ui={false} />
       <CardContent>
         <CardHeader>Personlig Utveckling </CardHeader>
         <CardMeta>
@@ -146,7 +164,7 @@ const Curse = () => (
       </CardContent>
     </Card>
     <Card className="hover-card">
-      <Image src='/src/assets/curse/datorer.png' wrapped ui={false} />
+      <Image src={Datorer} wrapped ui={false} />
       <CardContent>
         <CardHeader>Bästa Datorer</CardHeader>
         <CardMeta>
@@ -178,7 +196,7 @@ const Curse = () => (
       </CardContent>
     </Card>
     <Card className="hover-card">
-      <Image src='/src/assets/curse/python.png' wrapped ui={false} />
+      <Image src={Python1} wrapped ui={false} />
       <CardContent>
         <CardHeader>Programmering 1 med Python</CardHeader>
         <CardMeta>
@@ -210,7 +228,7 @@ const Curse = () => (
       </CardContent>
     </Card>
     <Card className="hover-card">
-      <Image src='/src/assets/curse/csharp.png' wrapped ui={false} />
+      <Image src={Csharp1} wrapped ui={false} />
       <CardContent>
         <CardHeader>Programmering 1 med C#</CardHeader>
         <CardMeta>
@@ -242,7 +260,7 @@ const Curse = () => (
       </CardContent>
     </Card>
     <Card className="hover-card">
-      <Image src='/src/assets/curse/matte.png' wrapped ui={false} />
+      <Image src={Matematik5} wrapped ui={false} />
       <CardContent>
         <CardHeader>Matematik 5</CardHeader>
         <CardMeta>

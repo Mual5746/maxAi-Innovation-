@@ -12,12 +12,12 @@ import {
 import './Curse.css'
 import { Link } from "react-router-dom";
 
-
+import HackImage from '../../assets/curse/Hack.png';
 
 const Curse = () => (
   <CardGroup className='hover' style={{ marginLeft: '10%' }}>
     <Card className="hover-card">
-      <Image src='/src/assets/curse/Hack.png' wrapped ui={false} />
+      <Image src={HackImage } wrapped ui={false} />
       <CardContent>
         <CardHeader>Etisk Hacking</CardHeader>
         <CardMeta>

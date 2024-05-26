@@ -20,16 +20,6 @@ import Datorer from '../../assets/curse/datorer.png';
 import Python1 from '../../assets/curse/python.png';
 import Csharp1 from '../../assets/curse/csharp.png';
 import Matematik5 from '../../assets/curse/matte.png';
-import HackImage from '../../assets/curse/Hack.png';
-import HackImage from '../../assets/curse/Hack.png';
-import HackImage from '../../assets/curse/Hack.png';
-import HackImage from '../../assets/curse/Hack.png';
-import HackImage from '../../assets/curse/Hack.png';
-import HackImage from '../../assets/curse/Hack.png';
-import HackImage from '../../assets/curse/Hack.png';
-import HackImage from '../../assets/curse/Hack.png';
-import HackImage from '../../assets/curse/Hack.png';
-import HackImage from '../../assets/curse/Hack.png';
 
 
 const Curse = () => (

@@ -1,24 +1,25 @@
-
-import Hero from './Components/Hero/Hero'
 import Navbar from './Components/Navbar/Navbar'
+import About from './Components/About/About'
 import Case from './Components/Case/Case'
 import Title from './Components/Title/Title'
-import About from './Components/About/About'
+
 import Review from './Components/Review/Review'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import Curse from './Components/Curse/Curse'
+import Home from './Components/home/Home'
+
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
+       <Home/>
       <div className="container">
         <Title subTitle='Fullstack webbutvecklare' />
         <Case />
-        <Title subTitle='Om Oss' />
-        <About />
+          <Title subTitle='Om Oss' />
+          <About />
         <Title subTitle='Kurser som vi erbjuder' />
         <Curse />
         <Title subTitle='Recension' />

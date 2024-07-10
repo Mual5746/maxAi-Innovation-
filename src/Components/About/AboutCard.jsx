@@ -13,7 +13,7 @@ const AboutCard = () => {
             <img src={img} alt='bild card' />
           </div>
           <div className='right row'>
-            <Title subtitle='LEARN ANYTHING' />
+            <Title subTitle='LEARN ANYTHING' />
             <div className='items'>
               {homeAbout.map((val, index) => {
                 return (

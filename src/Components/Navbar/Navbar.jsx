@@ -1,8 +1,9 @@
 import './Navbar.css'
 import logo from '../../assets/logo3.png'
 import menu_icon from '../../assets/menu-icon.png'
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-scroll'
+import { useEffect, useState } from 'react'
+import { Link as ScrollLink } from 'react-scroll'
+import { Link } from 'react-router-dom'  // Importera Link från react-router-dom
 
 const Navbar = () => {
   const [stiky, setStiky] = useState(false);
@@ -22,12 +23,12 @@ const Navbar = () => {
     <nav className={`container ${stiky ? 'dark-nav' : ''}`}>
       <img src={logo} alt="log" className='logo' />
       <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
-        <li> <Link to='hero' smooth={true} offset={0} duration={500} > Hem</Link></li>
-        <li><Link to='cases' smooth={true} offset={-250} duration={500} > Webbutvecklare</Link></li>
-        <li><Link to='about' smooth={true} offset={-240} duration={500} > Om Oss</Link></li>
-        <li><Link to='hover' smooth={true} offset={-260} duration={500} > Kurser</Link></li>
-        <li><Link to='review' smooth={true} offset={-250} duration={500} > Recentioner</Link></li>
-        <li><Link to='contact' smooth={true} offset={50} duration={500} > Kontakt </Link></li>
+        <li><Link to='/' > Hem</Link></li> {/* Använd Link från react-router-dom här */}
+        <li><ScrollLink to='cases' smooth={true} offset={-250} duration={500} > Webbutvecklare</ScrollLink></li>
+        <li><Link to='/about' > Om Oss</Link></li> {/* Använd Link från react-router-dom här */}
+        <li><ScrollLink to='hover' smooth={true} offset={-260} duration={500} > Kurser</ScrollLink></li>
+        <li><ScrollLink to='review' smooth={true} offset={-250} duration={500} > Recentioner</ScrollLink></li>
+        <li><ScrollLink to='contact' smooth={true} offset={50} duration={500} > Kontakt </ScrollLink></li>
         <li className='sign-in'>Logga in</li>
         <li><button className='btn sign-upp'> Registrera </button></li>
       </ul>

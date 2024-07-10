@@ -18,7 +18,9 @@ const App = () => {
       <div className="container">
         <Title subTitle='Fullstack webbutvecklare' />
         <Case />
-        <AboutCard/>
+      </div>
+      <AboutCard/>
+      <div className="container">
         <Title subTitle='Kurser som vi erbjuder' />
         <Curse />
         <Title subTitle='Recension' />

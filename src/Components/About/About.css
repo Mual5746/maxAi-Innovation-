@@ -77,6 +77,10 @@
     font-size: 20px;
     font-weight: 500;
   }
+  .container {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
   /*----------awrapper------------*/
   @media screen and (max-width: 768px) {
     .aboutHome .container {
@@ -85,7 +89,24 @@
     .aboutHome .row {
       width: 100%;
     }
+    .awrapper .grid {
+      grid-gap: 0px;
+    }
     .awrapper {
-      height: 50vh;
+      height: 30vh;
+    }
+    .awrapper .box {
+      padding: 60px 0;
+    }
+    .awrapper img {
+      height: 30px;
+      margin-right: 5px;
+    }
+    .awrapper h1 {
+      font-size: 10px;
+    }
+    .awrapper h3 {
+      font-size: 10px;
+      font-weight: 200;
     }
   }

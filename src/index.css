@@ -37,6 +37,70 @@ a {
     text-decoration: underline;
 }
 
+button {
+    padding: 17px 30px;
+    background-color: #fff;
+    color: #1eb2a6;
+    font-weight: 600;
+    border: none;
+    margin: 30px 10px 0 0;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+    transition: 0.5s;
+  }
+  button i {
+    margin-left: 20px;
+  }
+  button:hover {
+    box-shadow: none;
+  }
+/* Back */
+
+.back {
+    background-image:linear-gradient(90deg, rgba(103,108,113,0.6237088585434174) 0%, rgba(10,21,33,0.8057816876750701) 100%), url("./assets/tech1.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 50px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .back h1 {
+    font-size: 100px;
+    font-weight: 400;
+  }
+  .back h2 {
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+  }
+  .flex {
+    display: flex;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+
+  .primary-btn {
+    background-color: #1eb2a6;
+    color: #fff;
+  }
+
 .sign-upp {
     color: #fff;
     background-color: #4fd55891;

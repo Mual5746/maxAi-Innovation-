@@ -4,7 +4,8 @@
     font-weight: 700;
     text-transform: uppercase;
     margin: 30px 0 30px;
-    color: blue;
+    color:linear-gradient(90deg, rgba(103,108,113,0.6237088585434174) 0%, rgba(10,21,33,0.8057816876750701) 100%);
+
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }

@@ -1,8 +1,8 @@
 .hero {
     width: 100%;
-    min-height: 100vh;
     background: linear-gradient(90deg, rgba(103,108,113,0.6237088585434174) 0%, rgba(10,21,33,0.8057816876750701) 100%), url('../../../assets/hero1.gif') no-repeat;
     background-size: cover;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     color: #fff;
@@ -30,21 +30,32 @@
 /* ----- Media query -----*/
 
 @media (max-width: 850px) {
-    .hero-text h1 {
-        font-size: 35px;
-        max-width: 400px;
-        margin: auto;
+    .hero {
+        background: linear-gradient(90deg, rgba(103,108,113,0.6237088585434174) 0%, rgba(10,21,33,0.8057816876750701) 100%), url('../../../assets/hero2.gif') no-repeat;
+
+        height: 50vh;  /* Ändra höjden till 50vh */
+        background-size: 600px; /* Anpassa bakgrundsstorleken */
+        padding-left: 0;
+        display: flex;
+        align-items: center; /* Flytta innehållet uppåt */
+        justify-content: center;
+        margin-top: 20%
     }
 
-    .hero-text p {
-        font-size: 22px;
-        margin: 15px auto 30px;
+    .hero h1 {
+        font-size: 15px;
+        max-width: 300px;
+        margin-bottom: 5px;
+        margin-left: 0;
+        margin-top: 10%;
     }
-    .hero {
-        padding-left: 0;
+
+    .hero h3 {
+        font-size: 11px;
+        max-width: 300px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom:10px;
+        text-align: center;
     }
-    .hero .row {
-        width: 100%;
-        
-      }
 }

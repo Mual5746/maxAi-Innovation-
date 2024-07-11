@@ -36,25 +36,57 @@ a {
     outline: 0;
     text-decoration: underline;
 }
+/* Grundläggande styling för knapparna */
+.row .button {
+  display: flex; /* Lägg till flexbox för att placera knapparna i en rad */
+  gap: 10px; /* Mellanrum mellan knapparna */
+}
 
 button {
-    padding: 17px 30px;
-    background-color: #fff;
-    color: #1eb2a6;
-    font-weight: 600;
-    border: none;
-    margin: 30px 10px 0 0;
-    border-radius: 3px;
-    cursor: pointer;
-    box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
-    transition: 0.5s;
+  padding: 17px 30px;
+  background-color: #fff;
+  color: #1eb2a6;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+  display: flex; /* Flexbox för att centrera text och ikon */
+  align-items: center;
+}
+
+button i {
+  margin-left: 10px;
+  font-size: 1em; /* Justera storleken på ikonen */
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+@media (max-width: 1200px) {
+  button {
+    font-size: 0.9em; /* Minska textstorlek på knapparna för mindre skärmar */
+  }
+}
+
+@media (max-width: 768px) {
+  .row .button {
+    display: flex;
+    gap: 20px; /* Öka mellanrummet mellan knapparna */
+  }
+  button {
+    width: 40%; /* Full bredd på knapparna på mindre skärmar */
+    font-size: 0.6em; /* Ytterligare minskning av textstorlek */
+    padding: 10px 10px; /* Minska padding för mindre skärmar */
   }
   button i {
-    margin-left: 20px;
+    margin-left: 10px;
+    font-size: 1em; /* Justera storleken på ikonen */
   }
-  button:hover {
-    box-shadow: none;
-  }
+}
+
   /* Awrapper About */
 
  

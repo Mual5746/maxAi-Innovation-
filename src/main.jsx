@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Fullstack from './Pages/Fullstack.jsx'
 import About from './Components/About/About.jsx'
+import Allcurses from './Components/allcourses/CourseHome.jsx'
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
+  },
+  {
+    path: "/allcurses",
+    element: <Allcurses />,
   },
 ]);
 

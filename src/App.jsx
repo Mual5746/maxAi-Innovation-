@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer'
 import Curse from './Components/Curse/Curse'
 import Home from './Components/home/Home'
 import AboutCard from './Components/About/AboutCard'
+import AllCurses from './Components/allcourses/CourseHome'
 
 
 const App = () => {
@@ -21,6 +22,8 @@ const App = () => {
       </div>
       <AboutCard/>
       <div className="container">
+        <AllCurses />
+
         <Title subTitle='Kurser som vi erbjuder' />
         <Curse />
         <Title subTitle='Recension' />

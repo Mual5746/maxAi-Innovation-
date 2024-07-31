@@ -26,7 +26,7 @@ const Navbar = () => {
         <li><Link to='/' > Hem</Link></li> {/* Använd Link från react-router-dom här */}
         <li><ScrollLink to='cases' smooth={true} offset={-250} duration={500} > Webbutvecklare</ScrollLink></li>
         <li><Link to='/about' > Om Oss</Link></li> {/* Använd Link från react-router-dom här */}
-        <li><ScrollLink to='hover' smooth={true} offset={-260} duration={500} > Kurser</ScrollLink></li>
+        <li><Link to='/allcurses' > Kurser</Link></li> {/* Använd Link från react-router-dom här */}
         <li><ScrollLink to='review' smooth={true} offset={-250} duration={500} > Recentioner</ScrollLink></li>
         <li><ScrollLink to='contact' smooth={true} offset={50} duration={500} > Kontakt </ScrollLink></li>
         <li className='sign-in'>Logga in</li>

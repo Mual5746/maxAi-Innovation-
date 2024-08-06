@@ -3,7 +3,7 @@
 }
 .coursesCard .items {
   background-color: #fff;
-  padding: 30px;
+  padding: o;
   text-align: center;
 }
 .coursesCard .img {
@@ -59,6 +59,42 @@
   font-weight: 500;
   color: #1eb2a6;
 }
+
+/* New CSS for responsiveness */
+@media (max-width: 768px) {
+  .grid2-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .coursesCard .text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .coursesCard .details .box {
+    flex-direction: column;
+  }
+  .coursesCard .details .dimg img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .grid2-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .grid2-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
 /*-------------online---------*/
 .online {
   text-align: center;
@@ -112,5 +148,26 @@
   color: #fff;
 }
 /*-------------online---------*/
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+  .grid-online{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .grid-online {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .grid-online {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+  }
 }

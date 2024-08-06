@@ -5,7 +5,6 @@ import Title from './Components/Title/Title'
 import Review from './Components/Review/Review'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
-import Curse from './Components/Curse/Curse'
 import Home from './Components/home/Home'
 import AboutCard from './Components/About/AboutCard'
 import AllCurses from './Components/allcourses/CourseHome'
@@ -23,9 +22,7 @@ const App = () => {
       <AboutCard/>
       <div className="container">
         <AllCurses />
-
-        <Title subTitle='Kurser som vi erbjuder' />
-        <Curse />
+        
         <Title subTitle='Recension' />
         <Review />
         <Title subTitle='Kontakta Oss' />

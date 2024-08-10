@@ -1,26 +1,36 @@
+import Interview from './assets/interview.png';
+import Coaching from './assets/coaching.png';
+import Cert from './assets/cert.png';
+import Online from './assets/online.png';
 export const homeAbout = [
     {
       id: 1,
-      cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-      title: "Online Courses",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      cover: Online,
+      title: "Onlinekurser",
+      desc: "Lär dig de senaste teknikerna i programmering och IT från experter i branschen. Upptäck vårt omfattande utbud av kurser som täcker allt från grundläggande kodning till avancerad mjukvaruutveckling.",
     },
     {
       id: 1,
-      cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-      title: "Earn A Certificates",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      cover: Cert,
+      title: "Certifieringar",
+      desc: "Förstärk ditt CV och visa dina färdigheter med bransch-erkända certifikat. Våra kurser är utformade för att förbereda dig för certifieringar som ökar din anställbarhet och marknadsvärde.",
     },
     {
       id: 1,
-      cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-      title: "Learn with Expert",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      cover: Coaching,
+      title: "Karriärcoaching",
+      desc: "Få personlig vägledning och coaching från branschexperter. Vi erbjuder en-till-en-sessioner för att finslipa dina tekniska färdigheter, förbereda dig för jobbintervjuer och hjälpa dig att navigera i din karriärväg effektivt.",
+    },
+    {
+      id: 1,
+      cover: Interview,
+      title: "Intervjuförberedelser",
+      desc: "Maximera dina chanser att imponera på potentiella arbetsgivare med våra skräddarsydda intervjucoachningar. Lär dig allt från CV-skrivning till att hantera tekniska intervjuer med självförtroende.",
     },
   ]
   export const awrapper = [
     {
-      cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
+      cover: "://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
       data: "3,000",
       title: "SUCCESS STORIES",
     },
@@ -42,7 +52,7 @@ export const homeAbout = [
     },
   ]
 
-  import HackImage from './assets/curse/Hack.png';
+import HackImage from './assets/curse/Hack.png';
 import FullStack from './assets/curse/fullstack.png';
 import ItJob from './assets/curse/ItJob.png';
 import ItCarear from './assets/curse/ItCarear.png';
@@ -275,42 +285,22 @@ var teacher = "Max A.";
   ]
   export const team = [
     {
-      cover: "./images/team/t1.webp",
+      cover: Max,
       name: "Ph.D Adrian Molises",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t2.webp",
+      cover: Max,
       name: "Ph.D Arthur MaGregor",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t3.webp",
+      cover: Max,
       name: "Ph.D Anna Hanzen",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t4.webp",
-      name: "Ph.D Brian Wooden",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
-    },
-    {
-      cover: "./images/team/t5.webp",
-      name: "Ph.D Adrian Molises",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
-    },
-    {
-      cover: "./images/team/t6.webp",
-      name: "Ph.D Arthur MaGregor",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
-    },
-    {
-      cover: "./images/team/t7.webp",
-      name: "Ph.D Anna Hanzen",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
-    },
-    {
-      cover: "./images/team/t8.webp",
+      cover: Max,
       name: "Ph.D Brian Wooden",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },

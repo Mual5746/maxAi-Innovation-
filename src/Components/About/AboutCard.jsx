@@ -2,8 +2,7 @@ import "./About.css"
 import { homeAbout } from "../../dummydata"
 import Awrapper from "./Awrapper"
 import Title from "../Title/Title"
-import img from "../../assets/profile.png"
-
+import img from "../../assets/about.gif"
 const AboutCard = () => {
   return (
     <>
@@ -13,7 +12,8 @@ const AboutCard = () => {
             <img src={img} alt='bild card' />
           </div>
           <div className='right row'>
-            <Title subTitle='LEARN ANYTHING' />
+            <Title subTitle='Boosta Din Karriär Med Oss' />
+            <h3>Nå din top performance inom IT och programmering</h3>
             <div className='items'>
               {homeAbout.map((val, index) => {
                 return (
@@ -32,6 +32,7 @@ const AboutCard = () => {
           </div>
         </div>
       </section>
+            
       <Awrapper />
     </>
   )

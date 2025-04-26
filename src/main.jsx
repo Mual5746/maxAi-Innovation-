@@ -12,6 +12,7 @@ import {
 import Fullstack from './Pages/Fullstack.jsx'
 import About from './Components/About/About.jsx'
 import Allcurses from './Components/allcourses/CourseHome.jsx'
+import Pricing from './Components/pricing/Pricing.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,11 @@ const router = createBrowserRouter([
   {
     path: "/allcurses",
     element: <Allcurses />,
+  },
+
+  {
+    path: "/pricing",
+    element: <Pricing />,
   },
 ]);
 
